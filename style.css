@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+body{
+    align-items: center;
+
+
+}
+
+.login-page{
+    margin: 30px 40px 40px 40px;
+    width: 30%;
+    border: 1px solid white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 50px;
+    margin-left: 500px;
+    
+    
+}
+.content{
+    padding: 40px 10px;
+    width: 90%;
+  background: white;
+    border: 1px solid rgb(224, 223, 223);
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.content img{
+    margin-bottom: 10px;
+    width: 210px;
+    height: 90px;
+    font-size: 35px;
+}
+.content .form{
+margin-top: 10px;
+text-align: center;
+}
+.content .form input{
+   background: #fafafa;
+   
+   width: 90%;
+   outline: none;
+   border-style: none;
+   padding: 6px;
+   font-size: 16px;
+   border-radius: 2px;
+   border: 1px solid rgb(170, 168, 168);
+   margin-bottom: 8px;
+   
+
+
+}
+.content .form ::placeholder{
+    color:rgb(194, 189, 189);
+    font-size: 13px;
+}
+.content .btn{
+   text-align: center;
+    width: 90%;
+    padding: 6px;
+    font-size: 15px;
+    background: rgb(45, 164, 219);
+    border-style: none;
+    border-radius:2px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.after{
+    margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+ align-items: center;
+
+  padding: 8px 8px;
+  
+
+}
+.after .line{
+    display: flex;
+
+    align-items: center;
+    gap: 0px 5px;
+    margin-bottom: 20px;
+}
+.sp{
+    background-color: rgb(188, 183, 183);
+    height: 2px;
+    width: 100px;
+}
+
+.fb-icon{
+    text-decoration: none;
+
+
+
+}
+.fb-icon i{
+    color: rgb(8, 6, 127);
+    padding: 10px;
+
+}
+.fb-icon span{
+    color: rgb(8, 6, 127);
+    
+}
+
+#forget{
+
+    color: rgb(179, 179, 208);
+
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.sup p{
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: white;
+    padding: 20px 55px;
+    text-align: center;
+    
+    border: 1px solid rgb(234, 232, 232);
+}
+.signup a{
+    color: blue;
+    text-decoration: none;
+}
+.flex{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    
+}
+.flex img{
+    width: 100px;
+}
+
